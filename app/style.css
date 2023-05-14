@@ -1,7 +1,18 @@
+/* id's */
 #body {
   background-color: silver;
 }
 
+#NavDiv {
+  justify-content: center;
+}
+
+/* classes */
+.ContentSection {
+  border: 2px dashed black;
+}
+
+/* elements */
 h1 {
   color: crimson;
 }
