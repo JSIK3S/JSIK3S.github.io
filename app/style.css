@@ -55,6 +55,7 @@ table {
 
 #topDiv {
   justify-content: center;
+	height: 200px;
 }
 
 #navDiv {
@@ -71,6 +72,7 @@ table {
 .contentSection {
   border: 2px dashed black;
   align-items: center;
+	height: 300px;
 }
 
 /* elements */
