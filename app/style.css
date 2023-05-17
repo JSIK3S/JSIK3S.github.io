@@ -50,17 +50,27 @@ table {
 
 /* id's */
 #body {
-  background-color: silver;
+  background-color: whitesmoke;
 }
 
 #topDiv {
   justify-content: center;
-	height: 200px;
 }
 
 #navDiv {
   justify-content: space-between;
-  width: 100%;
+	padding: 20px;
+	background-color: #008cdb;
+}
+
+#AboutMe {
+	background-color: #008cdb;
+	color: whitesmoke;
+}
+
+#Resources {
+	background-color: #008cdb;
+	color: whitesmoke;
 }
 
 /* classes */
@@ -70,16 +80,23 @@ table {
 }
 
 .contentSection {
-  border: 2px dashed black;
   align-items: center;
-	height: 300px;
+	height: 400px;
+	justify-content: center;
 }
 
 /* elements */
 h1 {
   color: crimson;
+	font-size: 3.5rem;
+	font-weight: bold;
+	margin-right: 2rem;
 }
 
 span {
   border: 2px solid black;
+}
+
+a {
+	color: whitesmoke;
 }
